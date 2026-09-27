@@ -1,0 +1,13 @@
+{
+  "id": "deepseek",
+  "kind": "model-provider",
+  "name": "DeepSeek (hub provider)",
+  "provider": {
+    "apiVersion": 1,
+    "module": "provider.mjs"
+  },
+  "icons": {
+    "light": "logo.svg",
+    "dark": "logo.svg"
+  }
+}
