@@ -2,6 +2,7 @@
   "id": "deepseek",
   "pluginType": "model-provider",
   "name": "DeepSeek (hub provider)",
+  "summary": "A hub model provider.",
   "provider": {
     "apiVersion": 1,
     "module": "provider.mjs"
@@ -9,5 +10,8 @@
   "icons": {
     "light": "logo.svg",
     "dark": "logo.svg"
+  },
+  "release": {
+    "repository": "sabishii-me/agent-hub-model-provider-deepseek"
   }
 }
