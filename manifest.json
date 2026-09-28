@@ -1,6 +1,6 @@
 {
   "id": "deepseek",
-  "kind": "model-provider",
+  "pluginType": "model-provider",
   "name": "DeepSeek (hub provider)",
   "provider": {
     "apiVersion": 1,
