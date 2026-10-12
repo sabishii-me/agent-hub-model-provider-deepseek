@@ -1,0 +1,24 @@
+{
+  "id": "deepseek",
+  "version": 1,
+  "owner": "hub",
+  "name": {
+    "en": "DeepSeek",
+    "zh-CN": "DeepSeek",
+    "zh-TW": "DeepSeek",
+    "ja": "DeepSeek"
+  },
+  "authMethods": ["api-key"],
+  "configuration": {
+    "modelDeclarations": false,
+    "endpoint": { "url": "https://api.deepseek.com", "api": "openai-completions" },
+    "fields": [
+      {
+        "name": "token",
+        "type": "secret",
+        "label": { "en": "API key", "zh-CN": "API 密钥", "zh-TW": "API 金鑰", "ja": "API キー" }
+      }
+    ]
+  },
+  "catalog": { "refresh": true }
+}
