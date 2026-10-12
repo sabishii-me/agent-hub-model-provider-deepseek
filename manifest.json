@@ -1,8 +1,8 @@
 {
-  "id": "deepseek",
+  "id": "deepseek-provider",
   "pluginType": "model-provider",
   "name": "DeepSeek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "The DeepSeek model service as a provider type: the type owns the endpoint (https://api.deepseek.com, openai-completions); the person supplies only the API key.",
   "icons": {
     "light": "logo.svg",
